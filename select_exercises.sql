@@ -22,7 +22,7 @@ SELECT 'Albums released in the 1990s:' AS 'Caption';
 
 SELECT name
 FROM albums
-WHERE release_date  BETWEEN 1900 AND 2000;
+WHERE release_date  BETWEEN 1990 AND 2000;
 
 SELECT 'Albums with less than 20 million certified sales' AS 'Caption';
 
