@@ -6,8 +6,8 @@ SELECT name
 FROM albums;
 
 UPDATE albums
-SET sales = sales * 10
-WHERE sales IS NOT NULL;
+SET sales = sales * 10;
+-- WHERE sales IS NOT NULL;
 
 SELECT 'Updated album sales:' AS 'Caption';
 
@@ -18,7 +18,7 @@ SELECT 'All albums released before 1980:' AS 'Caption';
 
 SELECT name, release_date
 FROM albums
-WHERE release_date > 1980;
+WHERE release_date < 1980;
 
 UPDATE albums
 SET release_date = release_date - 100
@@ -38,6 +38,8 @@ WHERE artist = 'Michael Jackson';
 UPDATE albums
 SET artist = "Peter Jackson"
 WHERE artist = "Michael Jackson";
+
+SELECT 'Updated Michael Jackson to Peter Jackson:' AS 'Caption';
 
 SELECT name, artist
 FROM albums

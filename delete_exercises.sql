@@ -21,3 +21,8 @@ DELETE
 FROM albums
 WHERE artist = 'Whitney Houston';
 
+SELECT 'Current list of albums and information';
+
+SELECT *
+FROM albums\G
+
