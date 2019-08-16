@@ -6,11 +6,11 @@ SELECT name
 FROM albums
 WHERE artist = 'Pink Floyd';
 
-SELECT "The year Sgt. Pepper's Lonely Hearts Club Band was released:" AS 'Caption';
+SELECT 'The year Sgt. Pepper''s Lonely Hearts Club Band was released:' AS 'Caption';
 
 SELECT release_date
 FROM albums
-WHERE name = "Sgt. Pepper's Lonely Hearts Club Band";
+WHERE name = 'Sgt. Pepper''s Lonely Hearts Club Band';
 
 SELECT 'The genre for Nevermind:' AS 'Caption';
 
