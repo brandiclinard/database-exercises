@@ -41,33 +41,33 @@
 
 USE employees;
 
-SELECT first_name
+SELECT *
 FROM employees
 # WHERE first_name IN ('Irena',  'Vidya', 'Maya');
 WHERE gender = 'M' AND (first_name = 'Irena' OR first_name = 'Vidya' OR first_name = 'Maya');
 
 
-SELECT last_name
+SELECT *
 FROM employees
 WHERE last_name LIKE 'e%' OR last_name LIKE '%e';
 
-SELECT last_name
+SELECT *
 FROM employees
 WHERE last_name LIKE 'e%' AND last_name LIKE '%e';
 
-SELECT first_name, last_name
+SELECT *
 FROM employees
 WHERE hire_date like '199%';
 
-SELECT first_name, last_name
+SELECT *
 FROM employees
 WHERE birth_date like '%-12-25';
 
-SELECT first_name, last_name
+SELECT *
 FROM employees
 WHERE hire_date like '199%' AND birth_date like '%-12-25';
 
-SELECT first_name, last_name
+SELECT *
 FROM employees
 WHERE last_name like '%q%' AND last_name not LIKE '%qu%';
 
