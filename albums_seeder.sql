@@ -35,3 +35,5 @@ VALUES   ('Michael Jackson', 'Thriller', '1982', '47.3', 'Pop, Rock, R&B'),
               ('Pink Floyd', 'The Wall', '1979', '18.7', 'Progressive Rock'),
               ('Santana', 'Supernatural', '1999', '20.5', 'Latin Rock'),
               ('Guns N'' Roses', 'Appetite for Destruction', '1987', '21.6', 'Hard Rock');
+#               ('Guns N'' Roses','Appetite for Destruction', '1987', '21.6', 'Hard Rock' ); -- GIVES DUPLICATE ENTRY WARNING NOW THAT I HAVE SET UNQIUE KEYS FOR ARTIST AND ALBUM NAME
+
