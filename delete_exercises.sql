@@ -7,7 +7,7 @@ DELETE
 FROM albums
 WHERE release_date > 1991;
 
-SELECT "Deleted albums with genre disco:" AS 'Caption';
+SELECT 'Deleted albums with genre disco:' AS 'Caption';
 
 -- SELECT name, genre
 DELETE
